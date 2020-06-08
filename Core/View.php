@@ -24,7 +24,7 @@ class View
         }
         else 
         {
-            echo "$file Is Not Exist";
+            throw new \Exception("$file Is Not Exist");
         }
     }
 

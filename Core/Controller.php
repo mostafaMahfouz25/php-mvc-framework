@@ -12,4 +12,10 @@ abstract class Controller
     {
         $this->route_params = $route_params;
     }
+
+
+    public function __call($method,$args)
+    {
+        throw new \Exception("Method : ".$method ."Not Found In The Controller : ".\get_class($this));
+    }
 }

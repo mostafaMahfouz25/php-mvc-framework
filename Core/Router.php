@@ -129,17 +129,17 @@ class Router
                 }
                 else
                 {
-                    echo "Method {$action} in Controller {$controller} Not Found";
+                    throw new \Exception("Method {$action} in Controller {$controller} Not Found");
                 }
             }
             else 
             {
-                echo "This Controller {$controller} Not Exist  ";
+                throw new \Exception("This Controller {$controller} Not Exist ");
             }
         }
         else
         {
-            echo "No Route Matched";
+            throw new \Exception("Route Not Found ! :(");
         }
     }
 
