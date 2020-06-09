@@ -35,4 +35,5 @@ $router->add('/admin/user/index',['controller'=>'User','action'=>'index','namesp
 
 // run mvc pattern 
 $router->dispatch();
+// echo phpinfo();
 

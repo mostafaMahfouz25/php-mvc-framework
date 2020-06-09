@@ -1,0 +1,31 @@
+[09-Jun-2020 10:09:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Exception::getLing() in D:\work\xampp\htdocs\toturials\framework\Core\Error.php:40
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in D:\work\xampp\htdocs\toturials\framework\Core\Error.php on line 40
+[09-Jun-2020 10:09:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Exception::getLin() in D:\work\xampp\htdocs\toturials\framework\Core\Error.php:40
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in D:\work\xampp\htdocs\toturials\framework\Core\Error.php on line 40
+[09-Jun-2020 10:09:29 Europe/Berlin] <p> Uncaught ExceptionException</p><p> Message  : Route Not Found ! :(</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#1 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\Core\Router.php on line : 142</p>
+[09-Jun-2020 10:14:10 Europe/Berlin] <p> Uncaught ExceptionException</p><p> Message  : Route Not Found ! :(</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#1 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\Core\Router.php on line : 142</p>
+[09-Jun-2020 10:27:13 Europe/Berlin] <p> Uncaught ExceptionException</p><p> Message  : Route Not Found ! :(</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#1 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\Core\Router.php on line : 142</p>
+[09-Jun-2020 10:27:18 Europe/Berlin] <p> Uncaught ExceptionException</p><p> Message  : Route Not Found ! :(</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#1 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\Core\Router.php on line : 142</p>
+[09-Jun-2020 10:27:24 Europe/Berlin] <p> Uncaught ExceptionException</p><p> Message  : Route Not Found ! :(</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#1 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\Core\Router.php on line : 142</p>
+[09-Jun-2020 10:27:34 Europe/Berlin] <p> Uncaught ExceptionException</p><p> Message  : Route Not Found ! :(</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#1 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\Core\Router.php on line : 142</p>
+[09-Jun-2020 10:27:56 Europe/Berlin] <p> Uncaught ExceptionTwig\Error\LoaderError</p><p> Message  : Unable to find template "homed.php" (looked into: ../App/Views).</p><p> Stack Trace <pre>#0 D:\work\xampp\htdocs\toturials\framework\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('homed.php')
+#1 D:\work\xampp\htdocs\toturials\framework\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('homed.php')
+#2 D:\work\xampp\htdocs\toturials\framework\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('homed.php')
+#3 D:\work\xampp\htdocs\toturials\framework\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('homed.php')
+#4 D:\work\xampp\htdocs\toturials\framework\Core\View.php(47): Twig\Environment->render('homed.php', Array)
+#5 D:\work\xampp\htdocs\toturials\framework\App\Controllers\Home.php(13): Core\View::renderTemplate('homed.php', Array)
+#6 D:\work\xampp\htdocs\toturials\framework\Core\Router.php(128): App\Controllers\Home->index()
+#7 D:\work\xampp\htdocs\toturials\framework\public\index.php(37): Core\Router->dispatch()
+#8 {main}</pre></p><p> Uncaught ExceptionD:\work\xampp\htdocs\toturials\framework\vendor\twig\twig\src\Loader\FilesystemLoader.php on line : 227</p>

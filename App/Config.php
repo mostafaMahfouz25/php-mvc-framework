@@ -8,5 +8,6 @@ class Config
     const DB_USER = "root";
     const DB_PASSWORD = "";
     const DB_NAME = "learn_framework";
+    const SHOW_ERRORS = false;
 
 }

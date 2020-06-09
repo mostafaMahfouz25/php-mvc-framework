@@ -139,7 +139,7 @@ class Router
         }
         else
         {
-            throw new \Exception("Route Not Found ! :(");
+            throw new \Exception("Route Not Found ! :(","404");
         }
     }
 
